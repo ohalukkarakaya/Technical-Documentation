@@ -1,61 +1,39 @@
+# 📚 Technical Documentation
+
+This repository is a **central repo** that demonstrates different types of **software documentation** using my real projects.  
+
+<details>
+  <summary><strong>🧭 How to Use This Repo</strong></summary>
+
+- Each project README is written for a <strong>specific persona</strong> and <strong>doc type</strong>
+- Start from the <strong>"Projects & Documentation Types" table</strong>, then open the repo README for details
+</details>
+
+---
+
+## 👥 Reader Personas for My Projects
+- **Developers / Integrators:** Need setup, auth, endpoints, examples (API repos: 
+  [Movies API](https://github.com/ohalukkarakaya/node-movie-api), 
+  [Social Media Backend](https://github.com/ohalukkarakaya/nodeJs-social-media-back-end-api), 
+  [Video Sharing API](https://github.com/ohalukkarakaya/nodejs-video-sharing-api), 
+  [BENEK Server API (Notion)](https://remarkable-eyelash-590.notion.site/BENEK-Server-API-Documentation-17a17d8c6e1280b8b7afcaf756102972))
+- **C++ Library Users:** Need build steps, API surface, error handling ([cpp-mongoose](https://github.com/ohalukkarakaya/cpp-mongoose))
+- **CS Students / Researchers:** Need concept, theory, visuals, complexity ([Aho–Corasick Algorithm](https://github.com/ohalukkarakaya/Aho-Corasick-Algorithm), [Enigma (C++)](https://github.com/ohalukkarakaya/Enigma-cpp))
+- **End-users / Hobbyists:** Need quick run steps & previews ([terminal-fire-animation](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation), [cli-slot-game](https://github.com/ohalukkarakaya/cli-slot-game))
 
 
 ---
 
-## 🧑‍🤝‍🧑 Persona Matrix
+## 🗺️ Projects & Documentation Types
 
-Below is a quick matrix mapping **personae → goals → documentation needs → example repos**.
-
-### Matrix (Table)
-| Persona | Primary Goals | Documentation Needs | Example Repos |
-|---|---|---|---|
-| Developers / Integrators | Integrate APIs quickly & safely | Setup, auth, endpoints, examples, error cases | node-movie-api • social-media-back-end • video-sharing-api |
-| C++ Library Users | Use DB lib in C++ projects | Build steps, API surface, usage patterns, error handling | cpp-mongoose |
-| CS Students / Researchers | Understand algorithms & complexity | Concept overview, visuals, proofs/intuition, example I/O | Aho–Corasick-Algorithm • Enigma-cpp |
-| End-users / Hobbyists | Run demos & small CLIs | One-line run, screenshots/GIFs, flags/options, expected output | terminal-fire-animation • cli-slot-game |
-
-### Matrix (Diagram)
-```mermaid
-flowchart TB
-  subgraph Personas
-    Dev[Developers]
-    Cpp[C++ Library Users]
-    CS[CS Students/Researchers]
-    End[End-users/Hobbyists]
-  end
-
-  subgraph Doc_Types
-    API[API Docs]
-    LIB[Library/System Docs]
-    ALG[Algorithm/Concept Docs]
-    USR[User/Demo Docs]
-  end
-
-  subgraph Repos
-    Movie[node-movie-api]
-    Social[social-media-back-end]
-    Video[video-sharing-api]
-    CppLib[cpp-mongoose]
-    Aho[Aho–Corasick]
-    Enigma[Enigma-cpp]
-    Fire[terminal-fire-animation]
-    Slot[cli-slot-game]
-  end
-
-  Dev --> API
-  Cpp --> LIB
-  CS  --> ALG
-  End --> USR
-
-  API --> Movie
-  API --> Social
-  API --> Video
-
-  LIB --> CppLib
-
-  ALG --> Aho
-  ALG --> Enigma
-
-  USR --> Fire
-  USR --> Slot
-```
+| Project | Doc Type | Intended Audience |
+|---|---|---|
+| [Movies API](https://github.com/ohalukkarakaya/node-movie-api) | **API / Developer Docs** | Developers |
+| [Social Media Backend](https://github.com/ohalukkarakaya/nodeJs-social-media-back-end-api) | **API / Developer Docs** | Developers |
+| [Video Sharing API](https://github.com/ohalukkarakaya/nodejs-video-sharing-api) | **API / Developer Docs** | Developers |
+| [C++ Mongoose-like Library](https://github.com/ohalukkarakaya/cpp-mongoose) | **Library / System Docs** | C++ Devs |
+| [Aho–Corasick Algorithm](https://github.com/ohalukkarakaya/Aho-Corasick-Algorithm) | **Algorithm / Concept Docs** | CS Students |
+| [Enigma (C++)](https://github.com/ohalukkarakaya/Enigma-cpp) | **Algorithm / Simulation Docs** | CS/crypto enthusiasts |
+| [Terminal Fire Animation](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation) | **User / Demo Docs** | End-users |
+| [CLI Slot Game](https://github.com/ohalukkarakaya/cli-slot-game) | **User / Dev Docs** | End-users & Devs |
+| [BENEK Server API (Notion)](https://remarkable-eyelash-590.notion.site/BENEK-Server-API-Documentation-17a17d8c6e1280b8b7afcaf756102972) | **Full API Docs** | Devs & PMs |
